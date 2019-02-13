@@ -11,7 +11,7 @@ import java.io.* ;
 
 public class ElClo {
     public static void main(String[] args) {
-        // 1.	Открыть страницу google.com (или любой другой поисковик на ваш выбор) и ввести в строке поиска habrahabr;
+        // 1.	Открыть страницу google.com (или любой другой поисковик на ваш выбор) и ввести в строке поиска ...;
         WebDriver driver = new FirefoxDriver();
         driver.get("https://www.google.com");
         driver.Manage().Window.Maximize();
